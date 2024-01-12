@@ -10,7 +10,7 @@ function Sidebar() {
     const [updateUrl, setUpdateUrl] = useState<string | null>(null);
 
     const handleDownload = async () => {
-        await ipcRenderer.invoke("download-translationFile", {link: "https://github.com/SPEED0U/sctradfr/blob/main/locales/fr/global.ini"});
+        await ipcRenderer.invoke("download-translationFile", {link: "https://raw.githubusercontent.com/SPEED0U/sctradfr/main/locales/fr/global.ini"});
     };
 
     const hoverHandler = () => {
