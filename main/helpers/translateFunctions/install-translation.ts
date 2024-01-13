@@ -25,7 +25,7 @@ export default async function installTranslation(localization) {
   }
 
   
-  const url = "https://raw.githubusercontent.com/SPEED0U/sctradfr/main/locales/fr/global.ini";
+  const url = "https://raw.githubusercontent.com/SPEED0U/Scefra/main/french_(france)/global.ini";
   const outputPath = path.join(liveLocalizationDir, "global.ini");
 
   const response = await axios.get(url);

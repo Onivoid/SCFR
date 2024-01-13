@@ -5,7 +5,7 @@ import axios from "axios";
 
 export default async function checkTranslationUpToDate(localization) {
   const localGlobalIniPath = path.join(localization, "data", "Localization", "french_(france)", "global.ini");
-  const githubGlobalIniUrl = "https://raw.githubusercontent.com/SPEED0U/StarCitizenTranslations/main/french_(france)/global.ini";
+  const githubGlobalIniUrl = "https://raw.githubusercontent.com/SPEED0U/Scefra/main/french_(france)/global.ini";
 
   const localGlobalIni = await fs.readFileSync(localGlobalIniPath, "utf8");
   const githubGlobalIniResponse = await axios.get(githubGlobalIniUrl);

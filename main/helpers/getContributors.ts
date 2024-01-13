@@ -8,7 +8,7 @@ export default async () => {
     total: string;
   }
 
-  const response = await axios.get("https://tradsc.nightriderz.world/contributors");
+  const response = await axios.get("https://pontoon.scefra.fr/contributors");
   if (response.status === 200) {
     const $ = cheerio.load(response.data);
 
