@@ -6,7 +6,7 @@ import path from 'path';
 import { app } from 'electron';
 
 const checkForUpdates = async (currentVersion: string) => {
-  const response = await axios.get("https://api.github.com/repos/skullyfox/SCFR/releases/latest");
+  const response = await axios.get("https://api.github.com/repos/onivoid/SCFR/releases/latest");
   const { tag_name } = response.data;
   const { assets } = response.data;
   const latestVersion = tag_name.substring(1);

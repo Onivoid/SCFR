@@ -2,10 +2,10 @@
   "private": true,
   "name": "scfr",
   "description": "Interface d'installation de la traduction de Star Citizen",
-  "version": "1.3.3",
+  "version": "1.4.0",
   "author": "Logan Wilquin <onivoid.tv@gmail.com>",
   "main": "app/background.js",
-  "homepage": "https://github.com/Skullyfox/SCFR",
+  "homepage": "https://github.com/Onivoid/SCFR",
   "scripts": {
     "dev": "nextron",
     "prep": "npm install --save",
@@ -18,7 +18,7 @@
     "productName": "SCFR",
     "icon": "resources/icon"
   },
-  "repository": "https://github.com/Skullyfox/SCFR",
+  "repository": "https://github.com/Onivoid/SCFR",
   "publish": {
     "provider": "github",
     "releaseType": "release"
